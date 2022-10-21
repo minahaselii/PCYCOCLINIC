@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Entities\User\" />
+    <None Remove="Entities\Question\" />
+    <None Remove="Entities\Turn\" />
+    <None Remove="Entities\Tset\" />
+    <None Remove="Entities\Result\" />
+    <None Remove="Entities\Doctor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Entities\User\" />
+    <Folder Include="Entities\Question\" />
+    <Folder Include="Entities\Turn\" />
+    <Folder Include="Entities\Tset\" />
+    <Folder Include="Entities\Result\" />
+    <Folder Include="Entities\Doctor\" />
+  </ItemGroup>
+</Project>

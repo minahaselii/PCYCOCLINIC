@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{89D05FFB-9DD9-4D1E-9C8E-AAB5675A0B31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A253D164-12C7-4015-8D69-47D5139DA77E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsycoClinic.Domain", "PsycoClinic.Domain\PsycoClinic.Domain.csproj", "{127C035E-7F73-4AD1-9A44-6BD8666946FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{0DAD0E97-A552-48EE-B11B-1BC26148408F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsycoClinic.Presentation", "PsycoClinic.Presentation\PsycoClinic.Presentation.csproj", "{48CB128A-5A2C-42FA-9A93-46766C603476}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E33AA20B-A421-427B-9C49-60D3BABCDC09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrustracture", "Infrustracture", "{30EC3652-DEF0-44C4-95FC-A8177FCE8A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsycoClinic.Common", "PsycoClinic.Common\PsycoClinic.Common.csproj", "{D526A0F7-C7A5-425D-A912-6871DF7FFD79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsycoClinic.Application", "PsycoClinic.Domain\PsycoClinic.Application\PsycoClinic.Application.csproj", "{4CA09B9E-4EED-4CE1-A3FB-9DC55BB4E68C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{127C035E-7F73-4AD1-9A44-6BD8666946FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127C035E-7F73-4AD1-9A44-6BD8666946FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127C035E-7F73-4AD1-9A44-6BD8666946FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127C035E-7F73-4AD1-9A44-6BD8666946FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1103C2BD-2996-451A-9B43-1D3297131CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1103C2BD-2996-451A-9B43-1D3297131CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1103C2BD-2996-451A-9B43-1D3297131CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1103C2BD-2996-451A-9B43-1D3297131CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48CB128A-5A2C-42FA-9A93-46766C603476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CB128A-5A2C-42FA-9A93-46766C603476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CB128A-5A2C-42FA-9A93-46766C603476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CB128A-5A2C-42FA-9A93-46766C603476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D526A0F7-C7A5-425D-A912-6871DF7FFD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D526A0F7-C7A5-425D-A912-6871DF7FFD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D526A0F7-C7A5-425D-A912-6871DF7FFD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D526A0F7-C7A5-425D-A912-6871DF7FFD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA09B9E-4EED-4CE1-A3FB-9DC55BB4E68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA09B9E-4EED-4CE1-A3FB-9DC55BB4E68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA09B9E-4EED-4CE1-A3FB-9DC55BB4E68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA09B9E-4EED-4CE1-A3FB-9DC55BB4E68C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5B3896E-7241-4244-9196-259A0F5DD055}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A253D164-12C7-4015-8D69-47D5139DA77E} = {89D05FFB-9DD9-4D1E-9C8E-AAB5675A0B31}
+		{127C035E-7F73-4AD1-9A44-6BD8666946FC} = {A253D164-12C7-4015-8D69-47D5139DA77E}
+		{1103C2BD-2996-451A-9B43-1D3297131CF7} = {A253D164-12C7-4015-8D69-47D5139DA77E}
+		{0DAD0E97-A552-48EE-B11B-1BC26148408F} = {89D05FFB-9DD9-4D1E-9C8E-AAB5675A0B31}
+		{48CB128A-5A2C-42FA-9A93-46766C603476} = {0DAD0E97-A552-48EE-B11B-1BC26148408F}
+		{E33AA20B-A421-427B-9C49-60D3BABCDC09} = {89D05FFB-9DD9-4D1E-9C8E-AAB5675A0B31}
+		{30EC3652-DEF0-44C4-95FC-A8177FCE8A0B} = {89D05FFB-9DD9-4D1E-9C8E-AAB5675A0B31}
+		{D526A0F7-C7A5-425D-A912-6871DF7FFD79} = {E33AA20B-A421-427B-9C49-60D3BABCDC09}
+		{4CA09B9E-4EED-4CE1-A3FB-9DC55BB4E68C} = {A253D164-12C7-4015-8D69-47D5139DA77E}
+	EndGlobalSection
+EndGlobal
