@@ -6,4 +6,106 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Services\User\" />
+    <None Remove="Services\Doctor\" />
+    <None Remove="Services\Admin\" />
+    <None Remove="Services\Admin\FacadPattern\" />
+    <None Remove="Services\Admin\Commands\" />
+    <None Remove="Services\Admin\Mapper\" />
+    <None Remove="Services\Admin\Queries\" />
+    <None Remove="Services\Doctor\Commands\" />
+    <None Remove="Services\Doctor\FacadPattern\" />
+    <None Remove="Services\Doctor\Mapper\" />
+    <None Remove="Services\Doctor\Queries\" />
+    <None Remove="Services\User\Commands\" />
+    <None Remove="Services\User\FacadPattern\" />
+    <None Remove="Services\User\Mapper\" />
+    <None Remove="Services\User\Queries\" />
+    <None Remove="Services\Authentication\" />
+    <None Remove="AutoMapper" />
+    <None Remove="Services\Admin\Commands\AddDoctor\" />
+    <None Remove="Services\Admin\Commands\DeleteDoctor\" />
+    <None Remove="Services\Admin\Commands\DeleteTurn\" />
+    <None Remove="Services\Admin\Queries\TurnList\" />
+    <None Remove="Services\Admin\Queries\DoctorList\" />
+    <None Remove="Services\Admin\Queries\TestList\" />
+    <None Remove="Services\Admin\Queries\UserList\" />
+    <None Remove="Services\Admin\Queries\ResultList\" />
+    <None Remove="Services\Admin\Queries\QuestionList\" />
+    <None Remove="Services\Doctor\Commands\AddTurn\" />
+    <None Remove="Services\Doctor\Commands\UpdateTurn\" />
+    <None Remove="Services\Doctor\Commands\RemoveTurn\" />
+    <None Remove="Services\Doctor\Commands\AddTest\" />
+    <None Remove="Services\Doctor\Commands\UpdateTest\" />
+    <None Remove="Services\Doctor\Commands\RemoveTest\" />
+    <None Remove="Services\Doctor\Queries\TurnListForEachDoctor\" />
+    <None Remove="Services\Doctor\Queries\TestList\" />
+    <None Remove="Services\Doctor\Queries\TestListForEachDoctor\" />
+    <None Remove="Services\User\Commands\TakeTest\" />
+    <None Remove="Services\User\Commands\TakeTurn\" />
+    <None Remove="Services\User\Queries\TurnList\" />
+    <None Remove="Services\User\Queries\TestList\" />
+    <None Remove="Services\User\Queries\History\" />
+    <None Remove="Services\Authentication\Commands\" />
+    <None Remove="Services\Authentication\Queries\" />
+    <None Remove="Services\Authentication\FacadPattern\" />
+    <None Remove="Services\Authentication\Mapper\" />
+    <None Remove="Services\Authentication\Commands\Register\" />
+    <None Remove="Services\Authentication\Commands\Login\" />
+    <None Remove="Services\Authentication\Commands\UpdateUser\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\User\" />
+    <Folder Include="Services\Doctor\" />
+    <Folder Include="Services\Admin\" />
+    <Folder Include="Services\Admin\FacadPattern\" />
+    <Folder Include="Services\Admin\Commands\" />
+    <Folder Include="Services\Admin\Mapper\" />
+    <Folder Include="Services\Admin\Queries\" />
+    <Folder Include="Services\Doctor\Commands\" />
+    <Folder Include="Services\Doctor\FacadPattern\" />
+    <Folder Include="Services\Doctor\Mapper\" />
+    <Folder Include="Services\Doctor\Queries\" />
+    <Folder Include="Services\User\Commands\" />
+    <Folder Include="Services\User\FacadPattern\" />
+    <Folder Include="Services\User\Mapper\" />
+    <Folder Include="Services\User\Queries\" />
+    <Folder Include="Services\Authentication\" />
+    <Folder Include="Services\Admin\Commands\AddDoctor\" />
+    <Folder Include="Services\Admin\Commands\DeleteDoctor\" />
+    <Folder Include="Services\Admin\Commands\DeleteTurn\" />
+    <Folder Include="Services\Admin\Queries\TurnList\" />
+    <Folder Include="Services\Admin\Queries\DoctorList\" />
+    <Folder Include="Services\Admin\Queries\TestList\" />
+    <Folder Include="Services\Admin\Queries\UserList\" />
+    <Folder Include="Services\Admin\Queries\ResultList\" />
+    <Folder Include="Services\Admin\Queries\QuestionList\" />
+    <Folder Include="Services\Doctor\Commands\AddTurn\" />
+    <Folder Include="Services\Doctor\Commands\UpdateTurn\" />
+    <Folder Include="Services\Doctor\Commands\RemoveTurn\" />
+    <Folder Include="Services\Doctor\Commands\AddTest\" />
+    <Folder Include="Services\Doctor\Commands\UpdateTest\" />
+    <Folder Include="Services\Doctor\Commands\RemoveTest\" />
+    <Folder Include="Services\Doctor\Queries\TurnListForEachDoctor\" />
+    <Folder Include="Services\Doctor\Queries\TestList\" />
+    <Folder Include="Services\Doctor\Queries\TestListForEachDoctor\" />
+    <Folder Include="Services\User\Commands\TakeTest\" />
+    <Folder Include="Services\User\Commands\TakeTurn\" />
+    <Folder Include="Services\User\Queries\TurnList\" />
+    <Folder Include="Services\User\Queries\TestList\" />
+    <Folder Include="Services\User\Queries\History\" />
+    <Folder Include="Services\Authentication\Commands\" />
+    <Folder Include="Services\Authentication\Queries\" />
+    <Folder Include="Services\Authentication\FacadPattern\" />
+    <Folder Include="Services\Authentication\Mapper\" />
+    <Folder Include="Services\Authentication\Commands\Register\" />
+    <Folder Include="Services\Authentication\Commands\Login\" />
+    <Folder Include="Services\Authentication\Commands\UpdateUser\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+  </ItemGroup>
 </Project>

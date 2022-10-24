@@ -15,8 +15,10 @@ namespace PsycoClinic.Domain.Entities.User
         public string Token { get; set; }
         public DateTime tokenExp { get; set; }
         public string Education { get; set; }
+
         //0:user
         //1:Doctor
+        //2:Admin
         public byte UserType { get; set; }
     }
 }
